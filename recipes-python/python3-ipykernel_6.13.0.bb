@@ -39,11 +39,14 @@ RDEPENDS:${PN} += " \
         ${PYTHON_PN}-ipython \
         ${PYTHON_PN}-traitlets \
         ${PYTHON_PN}-tornado \
-        ${PYTHON_PN}-debugpy \
         ${PYTHON_PN}-jupyter-client \
         ${PYTHON_PN}-simplegeneric \
         ${PYTHON_PN}-matplotlib-inline \
         "
+
+# python3-debugpy does not build with python 3.12.
+#        ${PYTHON_PN}-debugpy
+
 
 FILES:${PN} += "${datadir}/jupyter"
 

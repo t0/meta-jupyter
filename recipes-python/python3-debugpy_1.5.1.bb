@@ -10,3 +10,5 @@ PYPI_PACKAGE = "debugpy"
 inherit pypi setuptools3
 
 BBCLASSEXTEND = "native"
+
+SKIP_RECIPE[python3-debugpy] = "Does not build properly with python 3.12"
