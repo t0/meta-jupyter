@@ -6,7 +6,7 @@ PYPI_PACKAGE = "plotly"
 
 inherit pypi setuptools3
 
-SRC_URI[sha256sum] = "20b8a1a0f0434f9b8d10eb7caa66e947a9a1d698e5a53d40d447bbc0d2ae41f0"
+SRC_URI[sha256sum] = "360a31e6fbb49d12b007036eb6929521343d6bee2236f8459915821baefa2cbb"
 
 RDEPENDS:${PN} += " \
 	${PYTHON_PN}-retrying \
