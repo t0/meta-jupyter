@@ -19,7 +19,6 @@ RDEPENDS:${PN} = "  \
 	${PYTHON_PN}-anyio \
 	${PYTHON_PN}-sniffio \
 	${PYTHON_PN}-nbclassic \
-	${PYTHON_PN}-bokeh \
 	${PYTHON_PN}-nbclient \
 	${PYTHON_PN}-charset-normalizer \
 	${PYTHON_PN}-nest-asyncio \
