@@ -13,3 +13,5 @@ RDEPENDS:${PN} += " \
 	python3-io \
 	python3-json \
 	"
+
+BBCLASSEXTEND = "native"

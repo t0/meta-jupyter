@@ -8,3 +8,5 @@ SRC_URI[sha256sum] = "152f9acabd296a8375fbca5b84c961ff95971fcfc32e79550c8df8e291
 inherit pypi python_flit_core
 
 RDEPENDS:${PN} = "python3-webencodings"
+
+BBCLASSEXTEND = "native"

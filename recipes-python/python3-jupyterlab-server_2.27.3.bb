@@ -19,3 +19,5 @@ RDEPENDS:${PN} = " \
 	python3-packaging \
 	python3-requests \
 	"
+
+BBCLASSEXTEND = "native"

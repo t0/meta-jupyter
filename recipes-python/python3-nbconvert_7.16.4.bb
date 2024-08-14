@@ -27,3 +27,5 @@ RDEPENDS:${PN} = " \
 	python3-tinycss2 \
 	python3-traitlets \
 	"
+
+BBCLASSEXTEND = "native"

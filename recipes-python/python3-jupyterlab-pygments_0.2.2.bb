@@ -13,3 +13,5 @@ inherit pypi setuptools3
 RDEPENDS:${PN} += "python3-core python3-pygments"
 
 FILES:${PN} += "${prefix}"
+
+BBCLASSEXTEND = "native"

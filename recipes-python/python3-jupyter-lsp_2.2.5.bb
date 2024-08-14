@@ -24,3 +24,5 @@ RDEPENDS:${PN} += " \
 	python3-traitlets \
 	python3-typing-extensions \
 	"
+
+BBCLASSEXTEND = "native"

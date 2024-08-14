@@ -9,3 +9,5 @@ PYPI_PACKAGE = "matplotlib_inline"
 inherit pypi python_setuptools_build_meta
 
 RDEPENDS:${PN} = "python3-traitlets"
+
+BBCLASSEXTEND = "native"

@@ -33,3 +33,5 @@ RDEPENDS:${PN} = " \
 	python3-traitlets \
 	python3-websocket-client \
 	"
+
+BBCLASSEXTEND = "native"

@@ -42,3 +42,5 @@ RDEPENDS:${PN} = " \
 	python3-traitlets \
 	python3-xmlrpclib-to \
 	"
+
+BBCLASSEXTEND = "native"

@@ -14,3 +14,5 @@ RDEPENDS:${PN} = " \
 	python3-nbformat \
 	python3-traitlets \
 	"
+
+BBCLASSEXTEND = "native"

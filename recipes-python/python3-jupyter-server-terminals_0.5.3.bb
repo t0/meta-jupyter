@@ -12,3 +12,5 @@ inherit pypi python_hatchling
 FILES:${PN} += "${prefix}"
 
 RDEPENDS:${PN} = "python3-terminado"
+
+BBCLASSEXTEND = "native"

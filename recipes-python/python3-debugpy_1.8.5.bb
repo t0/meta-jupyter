@@ -8,3 +8,5 @@ SRC_URI[sha256sum] = "b2112cfeb34b4507399d298fe7023a16656fc553ed5246536060ca7bd0
 inherit pypi python_setuptools_build_meta
 
 PYPI_PACKAGE_EXT = "zip"
+
+BBCLASSEXTEND = "native"

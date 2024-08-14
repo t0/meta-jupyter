@@ -22,3 +22,5 @@ RDEPENDS:${PN} += " \
 	python3-webencodings \
 	python3-xml \
 	"
+
+BBCLASSEXTEND = "native"

@@ -11,3 +11,5 @@ SRC_URI[sha256sum] = "879c3e79a2729ce768ebb7d36d4609e3a78a4ca2ec3a9f12286ca057e3
 
 PYPI_PACKAGE = "argon2_cffi"
 inherit pypi python_hatchling
+
+BBCLASSEXTEND = "native"

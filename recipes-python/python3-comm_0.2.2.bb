@@ -9,3 +9,5 @@ SRC_URI[sha256sum] = "3fd7a84065306e07bea1773df6eb8282de51ba82f77c72f9c85716ab11
 inherit pypi python_hatchling
 
 RDEPENDS:${PN} = "python3-traitlets"
+
+BBCLASSEXTEND = "native"

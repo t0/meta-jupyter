@@ -34,3 +34,5 @@ RDEPENDS:${PN} = " \
 	python3-tornado \
 	python3-traitlets \
 	"
+
+BBCLASSEXTEND = "native"

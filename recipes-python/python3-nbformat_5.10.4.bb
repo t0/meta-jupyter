@@ -18,3 +18,5 @@ RDEPENDS:${PN} = " \
 	python3-jupyter-core \
 	python3-traitlets \
 	"
+
+BBCLASSEXTEND = "native"

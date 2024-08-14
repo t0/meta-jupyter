@@ -8,3 +8,5 @@ SRC_URI[sha256sum] = "55158fa3d93b98cc75299b1e67078ad9003ca27945c76162c1c0766d6f
 inherit pypi setuptools3
 
 RDEPENDS:${PN} += "python3-core"
+
+BBCLASSEXTEND = "native"

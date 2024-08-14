@@ -13,3 +13,5 @@ RDEPENDS:${PN} = " \
 	python3-ptyprocess \
 	python3-tornado \
 	"
+
+BBCLASSEXTEND = "native"

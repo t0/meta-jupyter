@@ -6,3 +6,5 @@ SRC_URI[sha256sum] = "c76170a8b2dc18944e0915103c284cb889dfcee34e0e140ba3363c80f7
 
 PYPI_PACKAGE = "Genshi"
 inherit pypi python_setuptools_build_meta
+
+BBCLASSEXTEND = "native"

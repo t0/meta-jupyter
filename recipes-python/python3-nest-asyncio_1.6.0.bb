@@ -9,3 +9,5 @@ SRC_URI[sha256sum] = "6f172d5449aca15afd6c646851f4e31e02c598d553a667e38cafa997cf
 
 PYPI_PACKAGE = "nest_asyncio"
 inherit pypi python_setuptools_build_meta
+
+BBCLASSEXTEND = "native"

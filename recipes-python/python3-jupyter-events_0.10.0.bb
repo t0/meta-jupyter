@@ -18,3 +18,5 @@ RDEPENDS:${PN} = " \
 	python3-rfc3339-validator \
 	python3-rfc3986-validator \
 	"
+
+BBCLASSEXTEND = "native"

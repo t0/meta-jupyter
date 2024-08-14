@@ -24,3 +24,5 @@ RDEPENDS:${PN} += " \
 	python3-resource \
 	python3-shell \
 	"
+
+BBCLASSEXTEND = "native"

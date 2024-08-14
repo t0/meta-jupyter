@@ -16,3 +16,5 @@ RDEPENDS:${PN} += " \
 	python3-math \
 	python3-unittest \
 	"
+
+BBCLASSEXTEND = "native"

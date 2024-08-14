@@ -35,3 +35,5 @@ RDEPENDS:${PN} += " \
 	python3-unittest \
 	python3-xml \
 	"
+
+BBCLASSEXTEND = "native"

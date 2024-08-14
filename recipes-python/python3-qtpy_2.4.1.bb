@@ -6,3 +6,5 @@ SRC_URI[sha256sum] = "a5a15ffd519550a1361bdc56ffc07fda56a6af7292f17c7b395d4083af
 
 PYPI_PACKAGE = "QtPy"
 inherit pypi python_setuptools_build_meta
+
+BBCLASSEXTEND = "native"
