@@ -17,6 +17,7 @@ RDEPENDS:${PN} = " \
 	python3-importlib-metadata \
 	python3-jinja2 \
 	python3-jupyter-core \
+	python3-jupyterlab-pygments \
 	python3-markupsafe \
 	python3-mistune \
 	python3-nbclient \
