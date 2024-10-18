@@ -13,10 +13,10 @@ the [meta-xilinx mailing list](https://lists.yoctoproject.org/g/meta-xilinx):
 When sending patches, please make sure the email subject line includes
 `[meta-jupyter][<BRANCH_NAME>][PATCH]` and cc'ing the maintainers.
 
-For more details follow the OE community patch submission guidelines, as described in:
+For more details follow the Yocto Project community patch submission guidelines,
+as described in:
 
-https://www.openembedded.org/wiki/Commit_Patch_Message_Guidelines
-https://www.openembedded.org/wiki/How_to_submit_a_patch_to_OpenEmbedded
+https://docs.yoctoproject.org/dev/contributor-guide/submit-changes.html#
 
 `git send-email --to meta-xilinx@lists.yoctoproject.org *.patch`
 
@@ -29,13 +29,14 @@ https://www.openembedded.org/wiki/How_to_submit_a_patch_to_OpenEmbedded
 `git format-patch -s --subject-prefix="meta-jupyter][<BRANCH_NAME>][PATCH" -1`
 
 **Example:**
-`git format-patch -s --subject-prefix="meta-jupyter][langdale][PATCH" -1`
+`git format-patch -s --subject-prefix="meta-jupyter][scarthgap][PATCH" -1`
 
 **Maintainers:**
 
 	Mark Hatle <mark.hatle@amd.com>
 	Sandeep Gundlupet Raju <sandeep.gundlupet-raju@amd.com>
 	John Toomey <john.toomey@amd.com>
+	Trevor Woerner <trevor.woerner@amd.com>
 ---
 ## Dependencies
 
@@ -43,8 +44,8 @@ This layer depends on:
 
 	URI: https:///git.yoctoproject.org/poky
 	layers: meta, meta-poky
-	branch: langdale
+	branch: scarthgap
 
 	URI: https://git.openembedded.org/meta-openembedded
 	layers: meta-oe, meta-python
-	branch: langdale
+	branch: scarthgap
