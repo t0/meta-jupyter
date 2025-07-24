@@ -15,6 +15,9 @@ DEPENDS += " \
 	python3-jupyterlab-pygments-native \
 	python3-jsonschema-native \
 	python3-uri-template-native \
+	python3-types-python-dateutil-native \
+	python3-soupsieve-native \
+	python3-ipython-pygments-lexers-native \
 	"
 
 SRC_URI[sha256sum] = "4287b6da59740b32173d01d641f763d292f49c30e7a51b89c46ba8473126341e"
